@@ -2,7 +2,6 @@ import {createElement, convertKeksToRub, convertRubToKeks, editCashLimit} from '
 
 const STATUS_BUYER = 'buyer';
 const STATUS_SELLER = 'seller';
-const AMOUNT_PRECISION = 2;
 const CASH_PAYMENT_PROVIDER_NAME = 'Cash in person';
 
 const formSettings = {
@@ -83,7 +82,7 @@ const onSendingAmountChange = ({target}) => {
       value = convertKeksToRub(target.value, exchangeRate);
       break;
   }
-  receivingAmountField.value = value.toFixed(AMOUNT_PRECISION);
+  receivingAmountField.value = value;
   receivingAmountField.dispatchEvent(inputEvent);
 };
 
@@ -98,7 +97,7 @@ const onReceivingAmountChange = ({target}) => {
       value = convertRubToKeks(target.value, exchangeRate);
       break;
   }
-  sendingAmountField.value = value.toFixed(AMOUNT_PRECISION);
+  sendingAmountField.value = value;
   sendingAmountField.dispatchEvent(inputEvent);
 };
 

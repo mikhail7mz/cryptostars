@@ -3,8 +3,7 @@ import {updateFormData} from './update-form-data.js';
 import {validateForm, resetFormValidator} from './validation.js';
 import {sendData} from '../utils/data.js';
 
-// ссылка из тех задания не работает. Пришлось использовать другую.
-const SEND_DATA_URL = 'https://echo.htmlacademy.ru/';
+const SEND_DATA_URL = 'https://cryptostar.grading.pages.academy';
 
 const STATUS_BUYER = 'buyer';
 const STATUS_SELLER = 'seller';
