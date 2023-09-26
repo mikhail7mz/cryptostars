@@ -105,6 +105,7 @@ const onButtonSendAllClick = () => {
   sendingAmountField.value = JSON.parse(localStorage.getItem('balances'))
     .find((item) => item.currency === formSettings.sendingCurrency[contractor.status]).amount;
   sendingAmountField.dispatchEvent(changeEvent);
+  sendingAmountField.dispatchEvent(inputEvent);
   receivingAmountField.dispatchEvent(inputEvent);
 };
 
