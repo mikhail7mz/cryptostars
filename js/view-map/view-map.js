@@ -4,8 +4,8 @@ const TILE_LAYER_URL = 'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
 const TILE_LAYER_ATTRIBUTION = '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors | Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>';
 const ZOOM = '9';
 
-const PIN_URL = '../../img/pin.svg';
-const PIN_URL_VERIFIED = '../../img/pin-verified.svg';
+const PIN_URL = 'img/pin.svg';
+const PIN_URL_VERIFIED = 'img/pin-verified.svg';
 
 const PIN_WIDTH = 36;
 const PIN_HEIGHT = 46;
