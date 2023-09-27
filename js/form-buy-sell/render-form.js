@@ -53,8 +53,6 @@ const onFormSubmit = (event) => {
 };
 
 const openForm = (contractor) => {
-  formBuySellElement.reset();
-  resetFormValidator();
   switch (contractor.status) {
     case STATUS_BUYER:
       modalBuySellElement.classList.add('modal--sell');
@@ -102,6 +100,8 @@ function closeForm () {
 }
 
 const renderForm = (contractor) => {
+  formBuySellElement.reset();
+  resetFormValidator();
   updateFormData(contractor);
   openForm(contractor);
 };
