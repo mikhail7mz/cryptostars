@@ -5,7 +5,7 @@ import {getActiveButton} from '../utils/utils.js';
 import {filterContractors} from './filter.js';
 import {initFormValidator} from '../form-buy-sell/validation.js';
 
-const GET_CONTRACTORS_URL = 'https://cryptostar.grading.pages.academy/contractors';
+const GET_CONTRACTORS_URL = 'https://cryptostar.grading.htmlacademy.pro/contractors';
 const TEXT_CONTENT_LIST = 'Список';
 const TEXT_CONTENT_MAP = 'Карта';
 

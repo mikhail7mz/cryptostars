@@ -1,6 +1,6 @@
 import {getData, showServerUnavailableMessage} from './utils/data.js';
 
-const GET_DATA_URL = 'https://cryptostar.grading.pages.academy/user';
+const GET_DATA_URL = 'https://cryptostar.grading.htmlacademy.pro/user';
 
 const userProfileElement = document.querySelector('.user-profile');
 const userCryptoBalanceElement = document.querySelector('#user-crypto-balance');

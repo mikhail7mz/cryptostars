@@ -3,7 +3,7 @@ import {updateFormData} from './update-form-data.js';
 import {validateForm, resetFormValidator} from './validation.js';
 import {sendData} from '../utils/data.js';
 
-const SEND_DATA_URL = 'https://cryptostar.grading.pages.academy';
+const SEND_DATA_URL = 'https://cryptostar.grading.htmlacademy.pro';
 
 const STATUS_BUYER = 'buyer';
 const STATUS_SELLER = 'seller';
